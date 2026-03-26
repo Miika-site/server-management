@@ -2,7 +2,7 @@
 
 ## x) Tiivistelmä
 
-- SSH:tä käytetään turvallisien yhteyksien luomiseen palvelimille 
+- SSH:tä käytetään turvallisten palvelinyhteyksien luomiseen
 
 - Julkisen avaimen autentikointia käyttämällä poistetaan tarve syöttää salasanaa palvelinten halllintaa tehdessä, kuten ajaessa ansible-playbookia 
 
