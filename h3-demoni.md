@@ -70,11 +70,11 @@ Potkaistu demoni käyntiin uusilla asetuksilla.
 ```
 sudo systemctl reload apache2
 ```
-Etusivu toimi hienosti local hostissa ja sitä pystyi muokkaamaan ilman sudoa.
+Etusivu toimi hienosti local hostissa ja sitä pystyi muokkaamaan ilman sudoa. 
 
 <img width="745" height="496" alt="4" src="https://github.com/user-attachments/assets/614b6535-b41d-436f-a620-832fc4520c88" />
 
-
+*Korjattu raporttia 15.4.2026, lue Muokkaukset.
 
 ## b) Moottorix. Nginx asennus ja etusivu palvelimelle
 
@@ -239,6 +239,12 @@ Ja nyt Nginx käynnistyi palybookilla ja etusivu oli käytettävissä - 2 muutos
 <img width="618" height="374" alt="28" src="https://github.com/user-attachments/assets/ccaf675b-2db3-45cc-bfb0-fed5d2b585c6" />
 
 Raportin kirjoittamisen lopetin 22.10.
+
+## Muokkaukset
+15.4.2026. Tehtävä a). Oikeuksien muutos käyttäjälle etusivun muokkausta varten ilman sudoa. Vaihdettu index.html tiedoston omistajuus käyttäjälle "rage" komennolla:
+```
+sudo chown rage:rage /home/rage/publicsite/index.html 
+```
 
 ## Lähteet
 - Karvinen Tero. Ansiblen asennus ja ongelmanselvitys. Luettavissa: https://terokarvinen.com/hello-ansible/
