@@ -132,7 +132,7 @@ Lisäsin tehtäviin `cowsay` ohjelman asennuksen.
 
 <img width="662" height="268" alt="18" src="https://github.com/user-attachments/assets/0e2ef532-d45e-40de-a7ef-53452835ab29" />
 
-Ajoin playbookin, jotta muutokset tulevat voimaan. Tässä tapauksessa cowsay-ohjelma asentui, ja kaksi muutosta tapahtui (2=changed), toinen oli tosin pakettivaraston päivitys, toinen cowsay asennus.
+Ajoin playbookin, jotta muutokset tulevat voimaan. Tässä tapauksessa cowsay-ohjelma asentui, ja kaksi muutosta tapahtui (changed=2), toinen oli tosin pakettivaraston päivitys, toinen cowsay asennus.
 
 <img width="1202" height="415" alt="19" src="https://github.com/user-attachments/assets/fe5c92f8-72d7-47d4-ba2f-0dce9f56bb5a" />
 
@@ -150,7 +150,7 @@ Tehtävät tehty ja raportti valmistui klo 17.40.
 
 ## Muokkaukset
 
-25.4.2026. Muokattu otsikointia.
+25.4.2026. Muokattu otsikointia. Korjattu kirjoitusvirhettä.
 
 ## Lähteet
 
