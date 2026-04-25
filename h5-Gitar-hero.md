@@ -33,7 +33,7 @@ Menin työasemani selaimella oman Github-sivustoni repositorioihin `https://gith
 
 ## b) Dolly. Varaston kloonaaminen, muutosten tekeminen ja palvelimelle puskeminen
 
-Tässä tehtävässä lähdin Kloonaamaan edellisessä kohdassa tehtyä uutta varastoa itselleni. Loin virtuaalikoneelleni kansion koodeja varten `mkdir code`. Tänne kansioon haen projektin Gitin repositoriosta. Näin kansiorakenne pysyy siistinä ja helposti hallittavana.
+Tässä tehtävässä lähdin kloonaamaan edellisessä kohdassa tehtyä uutta varastoa itselleni. Loin virtuaalikoneelleni kansion koodeja varten `mkdir code`. Tänne kansioon haen projektin Gitin repositoriosta. Näin kansiorakenne pysyy siistinä ja helposti hallittavana.
 
 Tietoturvamielessä on hyvä käyttää SSH:ta, ja tässäkin tapauksessa kloonasin repon SSH:lla julkista avainta käyttäen. Olin jo aiemmin luonut koneelleni julkisen avaimen ja se tapahtuu komennolla `ssh-keygen`. Tulostin julkisen avaimeni `cat /home/rage2/.ssh/id_ed25519.pub` HUOM! Vain .pub eli julkisen avaimen (public) saa näyttää julkisesti ja tallentaa Gitiin. Julkinen avain toimii koneeni salaisen avaimen vastinparina. Tallensin julkisen avaimen Gitiin: settings > SSH and GPG keys > New SSH key > Add SSH key. Tämän olin tehnyt jo muutamaa päivää aiemmin. Nyt ei tarvitse kirjoittaa salasanaa erikseen joka kerta komentoja ajaessa; esim. push, pull ja clone.
 
@@ -95,7 +95,7 @@ Lokeja voi tutkia komennoilla `git log` (perusloki mm. tekijä, pvm ja commit-vi
 `git commit`/ tallennus paikalliseen > kommentilla, mitä muutoksia tein.
 `git push`/ pusku palvelimelle.
 
-Ajoin `git log --patch` komennon. Alla kuvassa rivikohtaiset muutokset, eli muokkaukset README-tiedstoon: "-" rivi poistettu, "+" rivi lisätty.
+Ajoin `git log --patch` komennon. Alla kuvassa rivikohtaiset muutokset, eli muokkaukset README-tiedstoon: "-" rivi poistettu, "+" rivi lisätty. `Author`näyttää kuka muutokset on tehnyt ja sen alla aikaleima.
 
 <img width="900" height="472" alt="12" src="https://github.com/user-attachments/assets/946d464b-63a3-4a95-86a5-35f96b55245c" />
 
@@ -110,7 +110,7 @@ Käyttäjäasetukset ovat tässä varastossa haluamallani tavalla.
 
 
 
-## e) Gitanbile. Laita Ansible-kansio versionhallintaan. Tee jokin muutos, aja ansiblella, tallenna versio (commit).
+## e) Gitanbile. Ansible-kansio versionhallintaan. Muutos, ajo ansiblella, version tallennus (commit)
 
 Edellisen raportin h4 tehtävässä olin luonut Ansible-kansion ja playbookin, jolla automatisoidaan MariaDB:n asennus. 
 
@@ -147,6 +147,10 @@ Tallennettu uusin versio komennolla `git add --all && git commit`. Tarkistin vie
 Minulla on jo pari valittuna projektia varten. Tästä projektista kuullaan seuraavissa raporteissa. 
 
 Tehtävät tehty ja raportti valmistui klo 17.40. 
+
+## Muokkaukset
+
+25.4.2026. Muokattu otsikointia.
 
 ## Lähteet
 
